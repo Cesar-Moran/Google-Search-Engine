@@ -2,6 +2,7 @@
 
 body {
     font-family: Roboto, sans-serif;
+
 }
 
 ol a{
@@ -14,6 +15,48 @@ ol {
     flex-direction: row;
     justify-content: flex-end;
     font-size: 0.81rem;
-    padding: 6px;
+    padding: 0px 8px 0px 8px;
+    margin: 0px;
     gap: 15px;
+}
+
+/* Searching Bar */
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rounder-bar {
+    border-width: 1px;
+    border-radius: 32px;
+    border-color: gray;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin-top: 10px;
+}
+
+.form-container .search-bar input[type="submit"] {
+    background-color: #f8f9fa;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: none;
+}
+.form-container .search-bar input[type="submit"]:hover{
+    cursor: pointer;
 }
