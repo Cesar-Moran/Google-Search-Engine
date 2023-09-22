@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advanced Search</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <ol class="advanced-logo">
+        <a href="index.html"><img src="assets/ggl-image.png" alt="Google's Logo." width="74px"></a>
+        <a href="index.html">Google Search</a>
+    </ol>
+
+    <div class="title-container">
+        <h1>Advanced Search</h1>
+    </div>
+
+    <div class="advanced-search-body">
+        <div class="advanced-search-body_title-span">
+            <span>Find pages with...</span>
+            <span>To do this in the search box.</span>
+        </div>
+        <form action="https://www.google.com/search">
+            <div class="advanced-search-body_input">
+                <p class="advanced-search-body_input-paragraph">all these words:</p>
+                <input type="text" name="as_q"></input>
+                <span>Type the important words: tri-colour rat terrier</span>
+            </div>
+            <div class="advanced-search-body_input">
+                <p class="advanced-search-body_input-paragraph">this exact word or phrase:</p>
+                <input type="text" name="as_epq"></input>
+                <span>Put exact words in quotes: "rat terrier"</span>
+            </div>
+            <div class="advanced-search-body_input">
+                <p class="advanced-search-body_input-paragraph">any of these words:</p>
+                <input type="text" name="as_oq"></input>
+                <span>Type OR between all the words you want: miniature OR standard</span>
+            </div>
+            <div class="advanced-search-body_input">
+                <p class="advanced-search-body_input-paragraph">none of these words:</p>
+                <input type="text" name="as_eq"></input>
+                <span>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</span>
+            </div>
+            <div class="container-form-submit-btn">
+                <input class="submit-btn" type="submit" value="Advanced Search"></input>
+            </div>
+        </form>
+        
+    </div>
+
 </body>
 </html>

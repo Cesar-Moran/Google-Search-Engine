@@ -31,6 +31,10 @@ ol {
     height: 60vh;
 }
 
+.top-bar {
+    padding: 10px;
+}
+
 .search-bar {
     display: flex;
     flex-direction: column;
@@ -71,3 +75,84 @@ ol {
     width: 272px;
     height: 92px;
 }
+
+/* Advanced Search Styling */
+
+.advanced-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.advanced-search-body {
+    padding: 60px 20px;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.advanced-search-body .submit-btn {
+    padding: 10px;
+    font-size: 0.688rem;
+    background-color: #4d90fe;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.container-form-submit-btn{
+    display: flex;
+    justify-content: end;
+    width: 42.2%;
+}
+
+.advanced-search-body_input-paragraph {
+    width: 180px;
+}
+
+.title-container h1 {
+    width: 100%;
+    color: #d93025;
+    font-size: 1.25rem;
+    margin: 25px 35px;
+    padding: 20px;
+}
+
+
+.advanced-search-body_input {
+    display: flex;
+    gap: 2rem;
+    height: 29px;
+    align-items:center;
+    margin-top: 20px;
+}
+
+.advanced-search-body_title-span {
+    display: flex;
+    gap: 43.3rem;
+}
+
+.advanced-search-body_title-span span:nth-last-child(1){
+    font-weight: bold;
+    color: #777;
+}
+
+.advanced-search-body_input p {
+    font-size: 0.938rem;
+}
+
+
+.advanced-search-body_input input {
+    width: 30%;
+    padding: 6px;
+    border: 1px solid #d9d9d9;
+}
+
+.advanced-search-body_input span{
+    font-size: 0.75rem;
+}
+
+
+
