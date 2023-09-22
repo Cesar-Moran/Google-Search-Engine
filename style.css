@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
 
+.monospace {
+    font-family: monospace;
+    color:#666;
+}
+
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Arial, sans-serif;
 
 }
 
@@ -86,7 +91,7 @@ ol {
 }
 
 .advanced-search-body {
-    padding: 60px 20px;
+    padding: 60px 55px;
     border-top: 1px solid #ebebeb;
     border-bottom: 1px solid #ebebeb;
 }
@@ -115,6 +120,7 @@ ol {
 .title-container h1 {
     width: 100%;
     color: #d93025;
+    font-weight: 500;
     font-size: 1.25rem;
     margin: 25px 35px;
     padding: 20px;
@@ -132,15 +138,18 @@ ol {
 .advanced-search-body_title-span {
     display: flex;
     gap: 43.3rem;
+    align-items: center;
 }
 
 .advanced-search-body_title-span span:nth-last-child(1){
     font-weight: bold;
     color: #777;
+    font-size: 0.813rem;
 }
 
 .advanced-search-body_input p {
-    font-size: 0.938rem;
+    font-size: 0.688rem;
+    color: #555;
 }
 
 
